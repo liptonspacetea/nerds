@@ -8,7 +8,7 @@ var message = popup.querySelector("#message");
 link.addEventListener("click", function(event) {
     event.preventDefault();
     popup.classList.add("modal-content-show");
-    user.focus();
+//    user.focus();
 });
        
 close.addEventListener("click", function(event) {
